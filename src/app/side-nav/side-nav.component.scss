@@ -1,0 +1,52 @@
+mat-toolbar {
+  background-color: #478559;
+}
+
+mat-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+mat-sidenav {
+  background-color: #478559;
+  border: none;
+}
+
+mat-icon {
+  background-color: #478559;
+  color: white;
+}
+
+mat-nav-list a {
+  color: white;
+  border: none;
+  padding: 15px;
+
+  &:hover {
+    background-color: darken(#478559, 5%);
+
+    mat-icon {
+      background-color: darken(#478559, 5%);
+    }
+  }
+
+  &:active {
+    background-color: darken(#478559, 10%);
+    mat-icon {
+      background-color: darken(#478559, 10%);
+    }
+  }
+}
+
+h1 {
+  background-color: #478559;
+  font-size: large;
+  color: white;
+}
+
+.icon-text {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
